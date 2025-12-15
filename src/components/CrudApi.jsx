@@ -166,7 +166,7 @@ export default function CrudApi() {
                   className={`form-control ${errors.name ? "is-invalid" : ""}`}
                   value={form.name}
                   onChange={onChange}
-                  placeholder="e.g., Swaroop Charan"
+                  placeholder="e.g., Satya Ganta"
                 />
                 {errors.name && <div className="invalid-feedback">{errors.name}</div>}
               </div>
@@ -178,7 +178,7 @@ export default function CrudApi() {
                   className={`form-control ${errors.email ? "is-invalid" : ""}`}
                   value={form.email}
                   onChange={onChange}
-                  placeholder="e.g., swaroop@email.com"
+                  placeholder="e.g., satyaganta@email.com"
                 />
                 {errors.email && <div className="invalid-feedback">{errors.email}</div>}
               </div>
